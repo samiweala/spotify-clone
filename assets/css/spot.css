@@ -1,0 +1,158 @@
+/* general */
+
+body{
+    margin: 0%;
+    background-color:#fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color:black;
+    border-bottom: 25px solid rgba(0,0,0,0.190);
+    padding-top: 2%;
+}
+.flex-container{
+    display: flex;
+    width:90%; /* sets width to 90% so content can be centered */
+    margin-left:auto; /* ensure margin left == margin right */
+    margin-right:auto;  
+    /* justify-content: space-between; */
+    
+}
+
+.menu-holder{
+    position: relative;
+    width: 100%;
+    padding-top: 20px;
+    
+}
+
+.menu-holder nav{
+    position: absolute;
+    right: 0;
+    
+}
+.menu-holder nav a{
+    color: #fff;
+    padding: 0px 15px;
+    font-size: 19px;
+    text-decoration: none;
+}
+
+.menu-holder nav a:nth-last-child(2){
+    border-left:1px solid #fff;
+}
+
+.banner{
+    color:#fff;
+    width: 100%;
+    background-image: url('../img/hero-sm.jpg');
+    min-height: 450px;
+    max-height: 650px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 30px;
+    padding-bottom: 20px;
+        
+}
+.banner .banner-content{
+    width: 75%;
+    margin:0 auto;
+}
+.banner-content #email{
+    border: 15px solid #fff;
+    border-radius: 5px; 
+}
+
+.banner h1{
+    font-size: 48pt;
+    line-height: 60px;
+}
+.btn-blue{
+    background-color:#1db954;;
+    color:#fff;
+    border:1px solid lime;
+    border-radius: 10px;
+    padding: 10px 30px;
+    
+}
+.flex-container h2{
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 30pt;
+    
+}
+
+.imagebox{
+    justify-content: space-evenly;
+    margin-bottom: 40px;
+}
+
+.imagebox .message{
+    text-align: center;
+}
+
+footer{
+    background-color: black;
+    color:#fff;
+}
+footer ul{
+    list-style-type: none;
+}
+footer ul li a{
+    display: block;
+    color: #fff;
+    text-decoration: none;
+}
+footer ul li{
+    margin: 0px 90px;
+    padding-top: 20px;
+}
+#spot_logo{
+    padding-top: 20px;
+}
+#spot_logo2{
+    padding-left: 70px;
+    padding-bottom: 5%;
+    margin-right: 40px;
+    
+}
+footer nav a{
+    list-style-type: none;
+    color: #fff;
+    text-decoration: none;
+ 
+}
+#logo2{
+    margin-bottom: 20px;
+}
+#logo2 img{
+    margin-left: 10px;
+}
+#logo2 img:first-child{
+    margin-left: 0px;
+}
+#textlogo nav a{
+    margin-left: 18px;
+    font-size: 10px;
+}
+#textlogo nav a:first-child{
+    margin-left: 0px;
+}
+#signup{
+    padding-top: 20px;
+
+}
+#signup a{
+    color: #fff;
+    text-decoration: none;
+}
+
+/* footer li{
+    list-style-type: none;
+    
+}
+footer li a{
+    display: list-item;
+} */
